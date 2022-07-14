@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.MyListItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  font-family: 'Poppins', sans-serif;
+  max-width: 600px;
+  margin: auto;
+
+  height: 70px;
+  margin: 20px 36px;
+  box-shadow: 0px 3px 8px #6e6e6e;
+
+  background-color: #d4d4d4;
+}
+
+.ManualInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  font-family: 'Poppins', sans-serif;
+  max-width: 800px;
+
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 8px #6e6e6e;
+
+  background-color: #d4d4d4;
+}
+
+.ManualInput--Single {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  margin: auto;
+  height: 100%;
+}
+
+.ManualInput--Single--Text {
+  margin: auto;
+  margin-right: 10px;
+}
+
+.ManualInput--Single--Number {
+  margin: auto;
+  margin-right: 10px;
+  width: 70px;
+}
+
+.ManualInput--Single--Range {
+  margin: auto;
+  margin-right: 10px;
+}
+
+.AdminView {
+  background-color: coral;
+}
+
+.AdjustComponent {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  box-shadow: 0px 3px 8px #6e6e6e;
+  border-radius: 50%;
+}
+
+.AdjustComponent--Row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.AdjustComponent--Cell {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.AdjustComponent--Input {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.AdjustComponent--Input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #3d3d3d;
+  color: white;
+  text-align: center;
+}
+
+.AdjustComponent--Button.btn {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.Atooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.Atooltip .Atooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.Atooltip:hover .Atooltiptext {
+  visibility: visible;
+}
+
+.ListComponent {
+  padding: 10px;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 8px #6e6e6e;
+  border-radius: 10px;
+  background-color: #3d3d3d;
+}
+
+.RowComponent {
+  width: 100%;
+  background-color: antiquewhite;
+  box-shadow: 0px 3px 8px #6e6e6e;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.RowComponent--Button.btn {
+  height: 100%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.ItemComponetn {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.ItemComponetn--Number {
+  width: 70px;
+  height: 90%;
+  margin: auto;
+}
+
+.ItemComponetn--Number input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #3d3d3d;
+  color: white;
+  text-align: center;
+}
+
+.ItemComponetn--Range {
+  width: 150px;
+  height: 90%;
+  margin: auto;
+}
+
+.ItemComponetn--Range input {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.ItemComponetn--Text {
+  margin: auto;
+}
+
+.ItemComponetn--Text p {
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.ListComponent--Buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ListComponent--Buttons Button {
+  margin-right: 10px;
+}
+
+.ListComponent--Buttons--p {
+  height: 25px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+}
+
+.NavText {
+  width: 100px;
+  color: wheat;
+}
+
+.IndicatorOn {
+  background-color: lightgreen;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  margin: auto;
+}
+
+.IndicatorOff {
+  background-color: lightcoral;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  margin: auto;
+}
+
+.MyNavItem {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
+  align-items: center;
+}
+
+.TMP001 {
+  width: 50px;
+}
+
+/* .StarMap {
+  width: 800px;
+  height: 800px;
+  background-color: aqua;
+}
+
+.StarMap img {
+  width: 100%;
+  height: 100%;
+} */
+
+.ConstellationList--Table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: green;
+}
+.ConstellationList--Row {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  background-color: darkgoldenrod;
+}
+.ConstellationList--Header {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.ConstellationList--CellA {
+  width: 20%;
+  max-width: 250px;
+  text-align: center;
+}
+.ConstellationList--CellB {
+  width: 40%;
+  text-align: center;
+}
+.ConstellationList--Modal {
+  width: 90vw !important;
+  max-width: 800px !important;
+}
+.StarMap {
+  width: 100%;
+  height: 100%;
+}
+.StarMap img {
+  width: 100%;
+  height: 100%;
+}
+
+.StarMap .Point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+.NawBar--Columns {
+  flex-flow: column;
+  display: flex;
+  width: 100%;
+}
+.NawBar--Rows {
+  flex-flow: row;
+  display: flex;
+  width: 100%;
+}
+.Navbar--Connected {
+  display: flex;
+  padding: 8px;
+  color: #fff;
+  flex-flow: row;
+}
+
+.Navbar--Input {
+  display: flex;
+  flex-flow: row;
+  padding: 8px;
+  color: #fff;
+  align-items: center;
+}
+
+.Navbar--Input input {
+  width: 100px;
+  margin-left: 5px;
+}
+
+.Navbar--Input select {
+  width: 100px;
+  margin-left: 5px;
+}
+
+.Navbar--Left {
+  display: flex;
+  flex-flow: row;
+  margin-right: auto;
+}
+
+.NawBar--Button {
+  margin-left: 5px;
+}
+
+.AdminPage--Margin {
+  margin: 10px;
+}
